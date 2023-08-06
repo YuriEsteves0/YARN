@@ -1,0 +1,77 @@
+.foto-nome{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.fotoUser{
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px black;
+}
+
+.nomeUser{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:3em;
+}
+
+.infogeral{
+    background: var(--white);
+    margin: auto;
+    max-width: 900px;
+    margin-top: 30px;
+    padding: 40px 0 100px 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.infogeral textarea{
+    display: block;
+    margin: auto;
+    resize: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline-color: var(--lightblue);
+    padding: 15px;
+    width: 80%;
+    height: 160px;
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+.infogeral input[type='text']{
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    outline-color: var(--lightblue);
+    padding: 15px;
+    width: 80%;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    margin-top: 30px;
+    height: 60px;
+}
+
+.infogeral input[type='submit']{
+    float: right;
+    margin-top: 20px;
+    padding: 15px;
+    color: var(--white);
+    width: 100px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.infogeral .input-salvar{
+    margin-right: 90px;
+    margin-left: 10px;
+    background-color: var(--lightblue);
+}
+
+.infogeral .input-sair{
+    background-color: var(--red);
+}

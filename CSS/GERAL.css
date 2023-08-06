@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black: black;
+    --gray: #D9D9D9;
+    --white: white;
+
+    --lightblue: #8884FF;
+    --lightblueactive: #7c78e9;
+    
+    --red: #DD1C1A;
+
+    --green: #0F7173;
+}
+
+.encl{
+    display: grid;
+    grid-template-rows: 1fr 14.18fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+body{
+    background-image: url(../img/bright-background-with-dots_1055-3132.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.erroM{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 200px;
+    width: 600px;
+}
+
+.acertoM{
+    background-color: var(--green);
+    color: var(--white);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 200px;
+    width: 600px;
+}

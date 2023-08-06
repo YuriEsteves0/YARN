@@ -1,0 +1,57 @@
+main .post{
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 60px;
+}
+
+main .post .txts{
+    margin-left: 20px;
+}
+
+main .post .txts h1{
+    margin-top: 10px;
+
+}
+
+main .post .txts h2{
+    margin: 10px 0;
+}
+
+main .post .rightS{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+main .post .rightS a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightblue);
+    color: var(--white);
+    text-decoration: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+main .post .rightS a:active {
+    background-color: var(--lightblueactive);
+}
+
+main hr{
+    width: 1000px;
+}
+
+.Frase{
+    display: inline;
+}
+
+.primeira-l{
+    text-transform: uppercase;
+}
+
+.segunda-l{
+    text-transform: lowercase;
+}

@@ -1,0 +1,80 @@
+header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+header .header-encl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header #logo{
+    color: var(--lightblue);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+header .search-bar{
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input{
+    border: 1px solid black;
+    width: 900px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 16px 5px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:active{
+    background-color: var(--lightblue);
+    color: var(--white);
+}
+
+header .search-bar button{
+    cursor: pointer;
+}
+
+header .search-bar img{
+    width: 15px;
+    margin-left: -50px;
+    margin-top: 3px;
+}
+
+header .login{
+    font-size: 1em;
+    background-color: var(--lightblue);
+    color: var(--white);
+    min-width: 80px;
+    padding: 0 10px;
+    height: 50px;
+    cursor: pointer;
+}
+
+header .login:active{
+    background-color: var(--lightblueactive);
+}
+
+hr{
+    border: 1px solid black;
+}
+

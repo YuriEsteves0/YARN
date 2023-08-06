@@ -1,0 +1,13 @@
+main .infogeral{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-top: 40px;
+    /* background-color: red; */
+}
+
+.descpost{
+    margin-top: 30px;
+    font-weight: normal;
+}
